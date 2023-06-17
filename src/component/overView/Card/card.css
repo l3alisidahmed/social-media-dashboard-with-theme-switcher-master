@@ -1,0 +1,54 @@
+.Card {
+    font-family: 'Inter-7';
+    display: grid;
+    grid-template-rows: 0 0% 51% 23%;
+    padding-top: 2px;
+    text-align: center;
+    width: 200px;
+    height: 186px;
+    background-color: hsl(227, 47%, 96%);
+    border-radius: 5px;
+}
+
+.Card::before {
+    content: "";
+    border-radius: 3px 3px 0 0;
+    width: 100%;
+    height: 7px;
+    background-color: brown;
+    position: relative;
+    top: -3px;
+}
+
+.ProfileName, .Days {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.Followers {
+    font-size: 14px;
+    font-family: 'Inter-4';
+    color: gray;
+    letter-spacing: 5px;
+}
+
+.FaFacebook {
+    color: hsl(208, 92%, 53%);
+    font-size: 23px;
+}
+
+.Card h1 {
+    font-size: 60px;
+}
+
+.Days {
+    color: hsl(163, 72%, 41%);
+}
+
+.ProfileName {
+    color: gray;
+}

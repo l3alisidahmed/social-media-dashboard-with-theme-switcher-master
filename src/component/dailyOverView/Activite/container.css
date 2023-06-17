@@ -1,0 +1,32 @@
+.AnalyseCard {
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 35px 45px;
+    width: 200px;
+    height: 120px;
+    background-color: hsl(227, 47%, 96%);
+}
+
+.Activite, .numbers, .numbers div {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nbr {
+    font-size: 32px;
+}
+
+.Activite p {
+    color: gray;
+}
+
+.pron {
+    color: hsl(163, 72%, 41%);
+}
+
+.icon {
+    color: hsl(208, 92%, 53%);
+    font-size: 23px;
+}

@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Inter-4;
+    src: url(./Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Inter-7;
+    src: url(./Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+    font-weight: 700;
+}
+
+.App {
+    font-family: 'Inter-7';
+    margin-left: 10%;
+    margin-right: 10%;
+}

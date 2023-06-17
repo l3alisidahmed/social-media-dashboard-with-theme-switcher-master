@@ -1,0 +1,14 @@
+.profileActivite {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 15px;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.content .heading {
+    color: grey;
+}
